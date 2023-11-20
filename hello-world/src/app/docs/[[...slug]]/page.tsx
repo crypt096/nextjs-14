@@ -1,13 +1,11 @@
-import React from 'react'
-
 export default function Docs({ params }: {
   params: {
     slug: string[]
   }
 }) {
-    if(params.slug.length === 2 ) {
+    if(params.slug?.length === 2 ) {
       return <h1>Slug is 2</h1>
-    } else if (params.slug.length === 1) {
+    } else if (params.slug?.length === 1) {
       return <h1>Slug is 1</h1>
     }
     
