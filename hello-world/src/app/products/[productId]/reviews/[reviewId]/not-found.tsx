@@ -3,3 +3,4 @@ export default function NotFound() {
     <div>Review not found</div>
   )
 }
+   
