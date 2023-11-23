@@ -1,5 +1,8 @@
 export default function OrderProduct() {
   return (
-    <div>OrderProduct</div>
+    <>
+      <h1>Order Product</h1>
+      <button>Place order</button>
+    </>
   )
 }
