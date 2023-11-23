@@ -1,3 +1,4 @@
+"use client"
 import { useRouter } from "next/router";
 
 export default function OrderProduct() {
@@ -5,7 +6,7 @@ export default function OrderProduct() {
   const handleClick = () => {
     console.log('Placing your order');
     router.push("/");
-  }
+  }  
 
   return (
     <>
